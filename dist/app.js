@@ -26,3 +26,12 @@ for (const array of unionArray) {
 unionArray.forEach((element) => {
     console.log(element);
 });
+// les objets en typescript
+// any type c'est le fait de définir une variable sans type précis et qui peut prendre n'importe quel type de valeur
+let person;
+person = {
+    nom: "Ndiaye",
+    prenom: "moussa",
+    age: 20,
+    cni: 123456
+};
